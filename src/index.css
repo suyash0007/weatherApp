@@ -5,7 +5,7 @@
 
 
 .weather-card {
-  @apply bg-gradient-to-br rounded-xl shadow-lg p-6 m-4 max-w-sm sm:w-full w-auto text-white transition-all duration-300 ease-in-out transform hover:scale-105;
+  @apply bg-gradient-to-br rounded-xl shadow-lg sm:p-6 p-3 m-4 max-w-sm sm:w-full w-auto text-white transition-all duration-300 ease-in-out transform hover:scale-105;
 }
 
 .location{
