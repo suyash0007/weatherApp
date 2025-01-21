@@ -1,0 +1,57 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.weather-card {
+  @apply bg-gradient-to-br rounded-xl shadow-lg p-6 m-4 max-w-sm sm:w-full w-auto text-white transition-all duration-300 ease-in-out transform hover:scale-105;
+}
+
+.location{
+  @apply text-3xl font-bold mb-2 text-black;
+}
+
+.weather-info {
+  @apply text-lg mb-4 text-black font-semibold;
+}
+
+.temperature-section {
+  @apply flex justify-between items-center mb-6;
+}
+
+.temperature-value {
+  @apply text-6xl font-bold text-black;
+}
+
+.weather-icon {
+  @apply text-6xl;
+}
+
+.daily-forecast {
+  @apply grid grid-cols-3 gap-4 bg-white bg-opacity-30 rounded-lg p-2;
+}
+
+.daily-item {
+  @apply text-center;
+}
+
+.daily-date {
+  @apply font-medium text-black;
+}
+
+.daily-icon {
+  @apply text-3xl my-2;
+}
+
+.daily-temp-range {
+  @apply text-sm text-black;
+}
+
+.loading-message {
+  @apply text-center p-4 bg-white rounded-lg shadow-md;
+}
+
+.error-message {
+  @apply text-red-500 text-center p-4 bg-white rounded-lg shadow-md;
+}
