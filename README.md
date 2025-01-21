@@ -19,7 +19,7 @@ This is a React application that displays weather information for different loca
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/ShoshinTech22/Recruitment-2616-Suyash-Tiwari]
+   git clone https://github.com/ShoshinTech22/Recruitment-2616-Suyash-Tiwari
    cd weatherapp
    ```
 
