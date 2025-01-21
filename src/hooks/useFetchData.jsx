@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const useFetcData = (latitude, longitude) => {
+const useFetchData = (latitude, longitude) => {
   const [weatherData, setWeatherData] = useState({});
   const [loading, setLoading] = useState(true); 
   const [error, setError] = useState(null);
@@ -32,4 +32,4 @@ const useFetcData = (latitude, longitude) => {
   return { weatherData, loading, error }
 };
 
-export default useFetcData
+export default useFetchData

@@ -1,9 +1,9 @@
-import useFetcData from "../hooks/useFetchData"
+import useFetchData from "../hooks/useFetchData"
 import '../index.css'
 
 const WeatherCard = ({ latitude, longitude, name }) => {
   
-  const { weatherData, error, loading } = useFetcData(latitude, longitude)
+  const { weatherData, error, loading } = useFetchData(latitude, longitude)
 
   const getWeatherInfo = (weatherCode) => {
     if (weatherCode <= 3) return { icon: "☀️", description: "Clear", gradient: "from-yellow-300 to-orange-400" }
